@@ -17,6 +17,7 @@ public class OnlinePurchaseManager
       counter++;
     }
     }
+    return counter;
   }
   
   /** Returns true if any pair of adjacent purchased Gizmo objects are
