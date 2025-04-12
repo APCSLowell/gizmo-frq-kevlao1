@@ -12,8 +12,10 @@ public class OnlinePurchaseManager
   public int countElectronicsByMaker(String maker)
   {
     int counter = 0;
+    for(int i = 0; i < purchases.size(); i++){
     if(purchases.get(i).isElectronic() == true && purchases.get(i).getMaker().equals(maker)){
       counter++;
+    }
     }
   }
   
